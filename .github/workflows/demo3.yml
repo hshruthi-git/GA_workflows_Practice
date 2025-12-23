@@ -1,0 +1,9 @@
+name: demo1
+
+on: workflow_dispatch
+
+jobs:
+    second-Job:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo " Welcome to Github Actions!!"
