@@ -1,4 +1,4 @@
-name: demo4
+name: example-npm
 
 on:
     workflow_dispatch:
