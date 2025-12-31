@@ -5,7 +5,7 @@ jobs:
     clone-my-repo:
         runs-on: ubuntu-latest
         steps:
-            -uses: actions/checkout@V3
+            -uses: actions/checkout@V4
             -run: ls -lrt
             -run: pwd && ls -a
             -run: echo "Hello Shruti"
