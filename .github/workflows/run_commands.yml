@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
     clone-my-repo:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu_latest
         steps:
             -uses: actions/checkout@V4
             -run: ls -lrt
