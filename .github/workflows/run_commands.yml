@@ -1,6 +1,9 @@
 name: run commands
 on: 
   workflow_dispatch:
+concurrency:
+  group: run-commands
+  cancel-in-progress: true
 jobs:
     clone-my-repo:
         runs-on: ubuntu_latest
